@@ -50,7 +50,7 @@ $(function() {
 // main flex slider
 $(window).load(function() {
     $('.main-flex-slider').flexslider({
-        slideshowSpeed: 5000,
+        slideshowSpeed: 4000,
         directionNav: false,
         animation: "fade",
         controlNav: false
