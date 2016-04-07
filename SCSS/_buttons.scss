@@ -29,7 +29,7 @@
 
 	&:hover,
 	&:focus {
-		background-color: darken($blue,10%); // uses Sass darken function
+		background-color: ($blue,10%); // uses Sass darken function
 		color: $white;
 	}
 }

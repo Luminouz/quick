@@ -29,7 +29,7 @@ h4 {
 // classes
 .home-text {
 	color: $white;
-	text-transform: uppercase; // refer to ‘flexible, creative, responsive’ text in PNG
+	text-transform: uppercase;
 	padding: 10px 0;
 	border-bottom: 3px solid rgba(255,255,255,0.15);
 	margin: 20px 0;
@@ -39,11 +39,16 @@ h4 {
 
 .home-h1 {
 	color: $blue;
-	font-size: 4.5em; // 2.5x base
+	font-size: 2.5em;
 	font-weight: 200;
 	margin-top: 40px;
 	margin-bottom: 40px;
+}
 
+@media (min-width: 768px) {
+    .home-h1 {
+        font-size: 4.5em; // 4.5x base font-size
+    }
 }
 
 .home-h1>span {
@@ -54,32 +59,3 @@ h4 {
 	letter-spacing: 1px;
 	margin-bottom: 60px;
 }
-
-
-.parallax {
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.parallax-overlay {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(../img/pattern.png);
-    background-repeat: repeat;
-    background-color: rgba(0,0,0,0.3);
-}
-#home {
-    background-image: url(../img/showcase-1.jpg);
-    padding: 160px 0;
-    width: 100%;
-    height: 100%;
-}
-
-
-
