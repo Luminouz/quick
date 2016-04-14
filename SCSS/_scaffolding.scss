@@ -1,3 +1,8 @@
+html,
+body {
+    height: 100%;
+}
+
 body {
   font-family: $font-family-base;
   font-size: $font-size-base;
@@ -7,16 +12,11 @@ body {
 }
 
 a {
-  color: $link-color;
-
-  &:hover,
-  &:focus {
-    color: $link-hover-color;
-    text-decoration: $link-hover-decoration;
-  }
-}
-
-html,
-body {
-	height: 100%;
+    color: $link-color;
+    
+    &:hover,
+    &:focus {
+        color: $link-hover-color;
+        text-decoration: $link-hover-decoration;
+    }
 }
